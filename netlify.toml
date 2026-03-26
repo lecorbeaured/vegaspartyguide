@@ -1,0 +1,40 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/bachelor"
+  to = "/bachelor-party.html"
+  status = 301
+
+[[redirects]]
+  from = "/bachelorette"
+  to = "/bachelorette-party.html"
+  status = 301
+
+[[redirects]]
+  from = "/nightclubs"
+  to = "/nightlife.html"
+  status = 301
+
+[[redirects]]
+  from = "/tours"
+  to = "/experiences.html"
+  status = 301

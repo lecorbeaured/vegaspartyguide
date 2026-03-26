@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegas Party Guide – Las Vegas Bachelor & Bachelorette Party Planning</title>
+  <meta name="description" content="Plan the ultimate Las Vegas party. Expert guides for bachelor parties, bachelorette parties, nightlife, and unforgettable group experiences in Vegas. Book top-rated tours and activities.">
+  <link rel="canonical" href="https://vegaspartyguide.live/">
+  <meta property="og:title" content="Vegas Party Guide – Las Vegas Party Planning Made Easy">
+  <meta property="og:description" content="Your ultimate Las Vegas party planning resource. Bachelor parties, bachelorette parties, nightlife guides, and top experiences.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1605101100278-5d1deb2b6498?w=1200&q=80">
+  <meta property="og:url" content="https://vegaspartyguide.live/">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: '#FFD700',
+            neon: '#FF2D78',
+            dark: '#0a0a0a',
+          },
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How far in advance should I plan a Vegas party?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We recommend booking at least 6–8 weeks in advance for weekend trips. Popular clubs, helicopter tours, and pool parties sell out fast — especially on holiday weekends and during peak season (March–May, September–November)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best area to stay in Las Vegas for a party trip?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Las Vegas Strip (between Mandalay Bay and the Wynn) is the best area for party groups. You'll be walking distance from top clubs, restaurants, and entertainment. Midstrip near the Bellagio and MGM Grand is especially central."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a Vegas bachelor party weekend cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most Vegas bachelor party weekends cost $500–$1,500 per person depending on hotel choice, nightclub spend, and activities. Budget $150–$300/night for hotel, $100–$200 for nightclub entry and table minimums, and $100–$250 for experiences like helicopter tours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do Vegas nightclubs have dress codes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — most top Vegas clubs enforce a strict dress code. Men: no athletic wear, no shorts, collared shirts or button-downs preferred. Women generally have more flexibility. Upscale attire always gets you in faster and may waive cover charges."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the best experiences for groups in Las Vegas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Top group experiences include the Las Vegas Strip Helicopter Night Flight, the Fremont Street History Walking Tour, the Sphere immersive experience, racing exotics at the Las Vegas Motor Speedway, and various pool party day clubs like Marquee Dayclub."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="font-sans bg-dark text-white">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" style="background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,215,0,0.1);">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="text-xl font-black text-gold tracking-tight">VEGAS</span>
+        <span class="text-xl font-black text-white tracking-tight">PARTY</span>
+        <span class="text-xl font-black text-gold tracking-tight">GUIDE</span>
+      </a>
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex items-center gap-6">
+        <a href="index.html" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">Home</a>
+        <a href="bachelor-party.html" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">Bachelor</a>
+        <a href="bachelorette-party.html" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">Bachelorette</a>
+        <a href="nightlife.html" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">Nightlife</a>
+        <a href="experiences.html" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">Experiences</a>
+      </div>
+      <!-- CTA + Mobile Menu -->
+      <div class="flex items-center gap-3">
+        <a href="experiences.html" class="bg-gold text-dark text-sm font-bold px-4 py-2 rounded-full hover:bg-yellow-400 transition-all hover:scale-105 whitespace-nowrap">Book Now</a>
+        <button id="menu-btn" class="md:hidden text-white p-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden pb-4">
+      <div class="flex flex-col gap-3 pt-2 border-t border-gray-800">
+        <a href="index.html" class="text-gray-300 hover:text-gold py-2 text-sm font-medium">Home</a>
+        <a href="bachelor-party.html" class="text-gray-300 hover:text-gold py-2 text-sm font-medium">Bachelor Party</a>
+        <a href="bachelorette-party.html" class="text-gray-300 hover:text-gold py-2 text-sm font-medium">Bachelorette Party</a>
+        <a href="nightlife.html" class="text-gray-300 hover:text-gold py-2 text-sm font-medium">Nightlife</a>
+        <a href="experiences.html" class="text-gray-300 hover:text-gold py-2 text-sm font-medium">Experiences</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<script>
+  document.getElementById('menu-btn').addEventListener('click', function() {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+  <!-- HERO SECTION -->
+  <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1605101100278-5d1deb2b6498?w=1400&q=80" alt="Las Vegas Strip at night" class="w-full h-full object-cover">
+      <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(10,10,10,0.7) 0%, rgba(10,10,10,0.5) 50%, rgba(10,10,10,0.9) 100%);"></div>
+    </div>
+    <div class="relative z-10 text-center px-4 max-w-5xl mx-auto pt-20">
+      <div class="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 text-gold text-xs font-semibold px-4 py-2 rounded-full mb-6 backdrop-blur-sm">
+        <span>★</span> Join 10,000+ Vegas Party Planners <span>★</span>
+      </div>
+      <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-tight mb-6">
+        <span class="text-white">Las Vegas Party</span><br>
+        <span class="text-gold">Planning Made Easy</span>
+      </h1>
+      <p class="text-xl sm:text-2xl text-gray-200 mb-4 max-w-2xl mx-auto leading-relaxed">Your Ultimate Vegas Party Playbook — bachelor parties, bachelorette bashes, nightlife, and unforgettable experiences.</p>
+      <p class="text-neon font-semibold mb-10 text-sm">⚡ Limited spots available — Book early for weekends</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="bachelor-party.html" class="bg-gold text-dark font-black text-lg px-8 py-4 rounded-full hover:bg-yellow-400 transition-all hover:scale-105 shadow-lg shadow-gold/25">Plan My Bachelor Party</a>
+        <a href="experiences.html" class="bg-neon text-white font-black text-lg px-8 py-4 rounded-full hover:opacity-90 transition-all hover:scale-105 shadow-lg shadow-neon/25">Book Vegas Experiences</a>
+      </div>
+      <div class="flex items-center justify-center gap-8 mt-12 text-sm text-gray-300">
+        <span class="flex items-center gap-2">🔒 SSL Secured</span>
+        <span class="flex items-center gap-2">✓ Best Price Guarantee</span>
+        <span class="flex items-center gap-2">💎 Free Cancellation</span>
+      </div>
+    </div>
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- FEATURE CARDS -->
+  <section class="py-20 px-4" style="background: #111111;">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-black text-white mb-3">Plan Your <span class="text-gold">Perfect Vegas Trip</span></h2>
+        <p class="text-gray-400 text-lg">Everything you need for an epic Las Vegas getaway</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Bachelor -->
+        <a href="bachelor-party.html" class="group relative overflow-hidden rounded-2xl block" style="min-height: 380px;">
+          <img src="https://images.unsplash.com/photo-1543269865-17709975b6f0?w=800&q=80" alt="Bachelor party Vegas" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0.3) 100%);"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6">
+            <div class="inline-block bg-gold text-dark text-xs font-bold px-3 py-1 rounded-full mb-3">BACHELOR PARTIES</div>
+            <h3 class="text-2xl font-black text-white mb-2">Vegas Bachelor Party Guide</h3>
+            <p class="text-gray-300 text-sm mb-4">Nightclubs, helicopter tours, pool parties and everything in between. The ultimate groom's sendoff.</p>
+            <span class="text-gold font-semibold text-sm group-hover:underline">Plan It Now →</span>
+          </div>
+        </a>
+        <!-- Bachelorette -->
+        <a href="bachelorette-party.html" class="group relative overflow-hidden rounded-2xl block" style="min-height: 380px;">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Bachelorette party Vegas" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0.3) 100%);"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6">
+            <div class="inline-block bg-neon text-white text-xs font-bold px-3 py-1 rounded-full mb-3">BACHELORETTE PARTIES</div>
+            <h3 class="text-2xl font-black text-white mb-2">Vegas Bachelorette Guide</h3>
+            <p class="text-gray-300 text-sm mb-4">Spa days, rooftop parties, VIP club access, and Sphere experiences. Make her night legendary.</p>
+            <span class="text-neon font-semibold text-sm group-hover:underline">Plan It Now →</span>
+          </div>
+        </a>
+        <!-- Nightlife -->
+        <a href="nightlife.html" class="group relative overflow-hidden rounded-2xl block" style="min-height: 380px;">
+          <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80" alt="Vegas nightlife clubs" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0.3) 100%);"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6">
+            <div class="inline-block border border-gold text-gold text-xs font-bold px-3 py-1 rounded-full mb-3">NIGHTLIFE</div>
+            <h3 class="text-2xl font-black text-white mb-2">Best Vegas Nightclubs</h3>
+            <p class="text-gray-300 text-sm mb-4">XS, Omnia, Hakkasan, Drai's — expert guides to Vegas's hottest clubs and how to get in.</p>
+            <span class="text-gold font-semibold text-sm group-hover:underline">Explore Now →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <div class="py-6 px-4" style="background: linear-gradient(135deg, #FFD700, #FF8C00);">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <p class="text-dark font-black text-xl">Ready to Plan Your Vegas Trip?</p>
+        <p class="text-dark/70 text-sm">Thousands of party planners trust VegasPartyGuide.live every year</p>
+      </div>
+      <a href="experiences.html" class="bg-dark text-gold font-black px-8 py-3 rounded-full hover:bg-gray-900 transition-all whitespace-nowrap">Browse Experiences →</a>
+    </div>
+  </div>
+
+  <!-- TOP EXPERIENCES -->
+  <section class="py-20 px-4 bg-dark">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-12">
+        <p class="text-neon font-semibold text-sm mb-2 tracking-widest uppercase">★★★★★ Rated on Viator & GetYourGuide</p>
+        <h2 class="text-4xl font-black text-white mb-3">Top Vegas <span class="text-gold">Experiences</span></h2>
+        <p class="text-gray-400">Handpicked activities for party groups — instant booking, free cancellation</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Helicopter -->
+        <div class="rounded-2xl overflow-hidden border border-gray-800 hover:border-gold/40 transition-all group" style="background:#111;">
+          <div class="relative h-52 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1474302771214-cf39f5b28498?w=800&q=80" alt="Vegas helicopter tour" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute top-3 left-3 bg-gold text-dark text-xs font-bold px-3 py-1 rounded-full">⚡ BESTSELLER</div>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center gap-1 text-gold text-sm mb-2">★★★★★ <span class="text-gray-400 text-xs ml-1">(2,847 reviews)</span></div>
+            <h3 class="text-white font-bold text-lg mb-2">Strip Night Helicopter Flight</h3>
+            <p class="text-gray-400 text-sm mb-3">See the Las Vegas Strip from 1,000 feet up at night — the most breathtaking view in Vegas. Hotel transport included.</p>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-gray-400 text-xs">From</span>
+              <span class="text-gold font-black text-2xl">$159<span class="text-sm font-normal text-gray-400">/person</span></span>
+            </div>
+            <p class="text-neon text-xs font-semibold mb-3">⚡ Limited spots — popular on weekends</p>
+            <a href="https://www.viator.com/tours/Las-Vegas/Las-Vegas-Strip-Night-Flight-by-Helicopter-with-Transport/d684-5847NIGHT?pid=P00292126&mcid=42383&medium=link" target="_blank" rel="noopener" class="block w-full text-center bg-gold text-dark font-black py-3 rounded-xl hover:bg-yellow-400 transition-all hover:scale-[1.02]">Book Now on Viator</a>
+          </div>
+        </div>
+        <!-- Fremont -->
+        <div class="rounded-2xl overflow-hidden border border-gray-800 hover:border-gold/40 transition-all group" style="background:#111;">
+          <div class="relative h-52 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1581351721010-8cf859cb14a4?w=800&q=80" alt="Fremont Street Las Vegas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute top-3 left-3 bg-neon text-white text-xs font-bold px-3 py-1 rounded-full">HIDDEN GEM</div>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center gap-1 text-gold text-sm mb-2">★★★★★ <span class="text-gray-400 text-xs ml-1">(1,204 reviews)</span></div>
+            <h3 class="text-white font-bold text-lg mb-2">Fremont Street History Walking Tour</h3>
+            <p class="text-gray-400 text-sm mb-3">Discover old Vegas with an expert guide. LED canopy light shows, neon signs, and stories you won't find in any guidebook.</p>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-gray-400 text-xs">From</span>
+              <span class="text-gold font-black text-2xl">$29<span class="text-sm font-normal text-gray-400">/person</span></span>
+            </div>
+            <p class="text-neon text-xs font-semibold mb-3">⚡ Small group — book early</p>
+            <a href="https://www.viator.com/tours/Las-Vegas/Fremont-Street-History-Walking-Tour/d684-6756FCCWT?pid=P00292126&mcid=42383&medium=link" target="_blank" rel="noopener" class="block w-full text-center bg-gold text-dark font-black py-3 rounded-xl hover:bg-yellow-400 transition-all hover:scale-[1.02]">Book Now on Viator</a>
+          </div>
+        </div>
+        <!-- Sphere -->
+        <div class="rounded-2xl overflow-hidden border border-gray-800 hover:border-neon/40 transition-all group" style="background:#111;">
+          <div class="relative h-52 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Sphere Las Vegas entertainment" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute top-3 left-3 bg-neon text-white text-xs font-bold px-3 py-1 rounded-full">🔥 MUST-DO</div>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center gap-1 text-gold text-sm mb-2">★★★★★ <span class="text-gray-400 text-xs ml-1">(3,512 reviews)</span></div>
+            <h3 class="text-white font-bold text-lg mb-2">The Sphere — Wizard of Oz Experience</h3>
+            <p class="text-gray-400 text-sm mb-3">Step inside the world's most immersive entertainment venue. The Wizard of Oz like you've never seen it — 18K resolution dome.</p>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-gray-400 text-xs">From</span>
+              <span class="text-gold font-black text-2xl">$79<span class="text-sm font-normal text-gray-400">/person</span></span>
+            </div>
+            <p class="text-neon text-xs font-semibold mb-3">⚡ Selling out fast — book now</p>
+            <a href="https://www.getyourguide.com/las-vegas-l58/las-vegas-the-sphere-experience-the-wizard-of-oz-t969545/?partner_id=PHIGTBO&utm_medium=online_publisher" target="_blank" rel="noopener" class="block w-full text-center bg-neon text-white font-black py-3 rounded-xl hover:opacity-90 transition-all hover:scale-[1.02]">Book on GetYourGuide</a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="experiences.html" class="inline-flex items-center gap-2 border border-gold text-gold font-bold px-6 py-3 rounded-full hover:bg-gold hover:text-dark transition-all">View All Experiences →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIND YOUR HOTEL -->
+  <section class="py-20 px-4" style="background:#111111;">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-10">
+        <p class="text-gold font-semibold text-sm mb-2 tracking-widest uppercase">Best Price Guaranteed</p>
+        <h2 class="text-4xl font-black text-white mb-3">Find Your <span class="text-gold">Vegas Hotel</span></h2>
+        <p class="text-gray-400">Compare hundreds of Strip hotels. Best prices, real reviews, instant booking.</p>
+      </div>
+      <div class="rounded-2xl overflow-hidden border border-gray-700" style="background:#0d0d0d;">
+        <script src="https://www.stay22.com/embed/gm" id="stay22-script" data-id="71RKgpvzrx"></script>
+        <div id="stay22-widget" style="height:500px;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="py-20 px-4 bg-dark">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-black text-white mb-3">What Party Planners <span class="text-gold">Are Saying</span></h2>
+        <p class="text-gray-400">Real stories from real Vegas trips</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl border border-gray-800 hover:border-gold/30 transition-all" style="background:#111;">
+          <div class="flex text-gold text-lg mb-4">★★★★★</div>
+          <p class="text-gray-300 mb-6 leading-relaxed">"Used Vegas Party Guide to plan my brother's bachelor party. The helicopter tour was absolutely insane — flying over the Strip at night was something we'll never forget. Booked everything here in like 20 minutes."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center text-gold font-bold">J</div>
+            <div>
+              <p class="text-white font-semibold text-sm">Jake M.</p>
+              <p class="text-gray-500 text-xs">Bachelor Party, March 2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 rounded-2xl border border-neon/30 hover:border-neon/50 transition-all" style="background:#111;">
+          <div class="flex text-gold text-lg mb-4">★★★★★</div>
+          <p class="text-gray-300 mb-6 leading-relaxed">"Planned my bachelorette here and it was perfect. The Sphere experience blew everyone away — it's like nothing else on earth. The hotel comparison tool saved us over $400 on our group booking too!"</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-neon/20 flex items-center justify-center text-neon font-bold">S</div>
+            <div>
+              <p class="text-white font-semibold text-sm">Sophia R.</p>
+              <p class="text-gray-500 text-xs">Bachelorette Party, January 2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 rounded-2xl border border-gray-800 hover:border-gold/30 transition-all" style="background:#111;">
+          <div class="flex text-gold text-lg mb-4">★★★★★</div>
+          <p class="text-gray-300 mb-6 leading-relaxed">"We were a group of 12 and this site made coordination so easy. The Fremont Street walking tour was a highlight — our guide was hilarious and knew everything. Would 100% use this again."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center text-gold font-bold">D</div>
+            <div>
+              <p class="text-white font-semibold text-sm">Derek T.</p>
+              <p class="text-gray-500 text-xs">Group Trip, February 2026</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA PINK STRIP -->
+  <div class="py-12 px-4" style="background: linear-gradient(135deg, #FF2D78, #cc0055);">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-black text-white mb-3">Your Vegas Adventure Starts Now</h2>
+      <p class="text-pink-100 mb-8 text-lg">Over 10,000 party planners have used VegasPartyGuide.live. Join them.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="bachelor-party.html" class="bg-dark text-gold font-black px-8 py-4 rounded-full hover:bg-gray-900 transition-all text-lg">Bachelor Party →</a>
+        <a href="bachelorette-party.html" class="bg-white text-neon font-black px-8 py-4 rounded-full hover:bg-gray-100 transition-all text-lg">Bachelorette Party →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <section class="py-20 px-4" style="background:#111111;">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-black text-white mb-3">Frequently Asked <span class="text-gold">Questions</span></h2>
+        <p class="text-gray-400">Everything you need to know about planning a Vegas party</p>
+      </div>
+      <div class="space-y-3" id="faq-container">
+        <div class="faq-item rounded-xl border border-gray-700 overflow-hidden">
+          <button class="faq-btn w-full flex items-center justify-between p-5 text-left hover:bg-gray-800/50 transition-colors">
+            <span class="font-semibold text-white pr-4">How far in advance should I plan a Vegas party?</span>
+            <span class="faq-icon text-gold text-xl flex-shrink-0">+</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5">
+            <p class="text-gray-400 leading-relaxed">We recommend booking at least 6–8 weeks in advance for weekend trips. Popular clubs, helicopter tours, and pool parties sell out fast — especially on holiday weekends and during peak season (March–May, September–November).</p>
+          </div>
+        </div>
+        <div class="faq-item rounded-xl border border-gray-700 overflow-hidden">
+          <button class="faq-btn w-full flex items-center justify-between p-5 text-left hover:bg-gray-800/50 transition-colors">
+            <span class="font-semibold text-white pr-4">What is the best area to stay in Las Vegas for a party trip?</span>
+            <span class="faq-icon text-gold text-xl flex-shrink-0">+</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5">
+            <p class="text-gray-400 leading-relaxed">The Las Vegas Strip (between Mandalay Bay and the Wynn) is the best area for party groups. You'll be walking distance from top clubs, restaurants, and entertainment. Midstrip near the Bellagio and MGM Grand is especially central.</p>
+          </div>
+        </div>
+        <div class="faq-item rounded-xl border border-gray-700 overflow-hidden">
+          <button class="faq-btn w-full flex items-center justify-between p-5 text-left hover:bg-gray-800/50 transition-colors">
+            <span class="font-semibold text-white pr-4">How much does a Vegas bachelor party weekend cost?</span>
+            <span class="faq-icon text-gold text-xl flex-shrink-0">+</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5">
+            <p class="text-gray-400 leading-relaxed">Most Vegas bachelor party weekends cost $500–$1,500 per person depending on hotel choice, nightclub spend, and activities. Budget $150–$300/night for hotel, $100–$200 for nightclub entry and table minimums, and $100–$250 for experiences like helicopter tours.</p>
+          </div>
+        </div>
+        <div class="faq-item rounded-xl border border-gray-700 overflow-hidden">
+          <button class="faq-btn w-full flex items-center justify-between p-5 text-left hover:bg-gray-800/50 transition-colors">
+            <span class="font-semibold text-white pr-4">Do Vegas nightclubs have dress codes?</span>
+            <span class="faq-icon text-gold text-xl flex-shrink-0">+</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5">
+            <p class="text-gray-400 leading-relaxed">Yes — most top Vegas clubs enforce a strict dress code. Men: no athletic wear, no shorts, collared shirts or button-downs preferred. Women generally have more flexibility. Upscale attire always gets you in faster and may waive cover charges.</p>
+          </div>
+        </div>
+        <div class="faq-item rounded-xl border border-gray-700 overflow-hidden">
+          <button class="faq-btn w-full flex items-center justify-between p-5 text-left hover:bg-gray-800/50 transition-colors">
+            <span class="font-semibold text-white pr-4">What are the best experiences for groups in Las Vegas?</span>
+            <span class="faq-icon text-gold text-xl flex-shrink-0">+</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5">
+            <p class="text-gray-400 leading-relaxed">Top group experiences include the Las Vegas Strip Helicopter Night Flight, the Fremont Street History Walking Tour, the Sphere immersive experience, exotic car racing, and pool party day clubs like Marquee Dayclub and Wet Republic.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer style="background:#050505; border-top: 1px solid rgba(255,215,0,0.15);">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      <div class="md:col-span-2">
+        <div class="flex items-center gap-1 mb-3">
+          <span class="text-2xl font-black text-gold">VEGAS</span>
+          <span class="text-2xl font-black text-white mx-1">PARTY</span>
+          <span class="text-2xl font-black text-gold">GUIDE</span>
+        </div>
+        <p class="text-gray-400 text-sm leading-relaxed max-w-xs">Your ultimate resource for planning unforgettable Las Vegas parties, nightlife experiences, and group adventures.</p>
+        <div class="flex items-center gap-4 mt-4">
+          <span class="text-xs text-gray-500 flex items-center gap-1">🔒 SSL Secured</span>
+          <span class="text-xs text-gray-500 flex items-center gap-1">✓ Best Price Guarantee</span>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 text-sm">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="bachelor-party.html" class="text-gray-400 hover:text-gold text-sm transition-colors">Bachelor Party Guide</a></li>
+          <li><a href="bachelorette-party.html" class="text-gray-400 hover:text-gold text-sm transition-colors">Bachelorette Party Guide</a></li>
+          <li><a href="nightlife.html" class="text-gray-400 hover:text-gold text-sm transition-colors">Vegas Nightlife</a></li>
+          <li><a href="experiences.html" class="text-gray-400 hover:text-gold text-sm transition-colors">Tours & Experiences</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3 text-sm">Top Experiences</h4>
+        <ul class="space-y-2">
+          <li><a href="https://www.viator.com/tours/Las-Vegas/Las-Vegas-Strip-Night-Flight-by-Helicopter-with-Transport/d684-5847NIGHT?pid=P00292126&mcid=42383&medium=link" target="_blank" rel="noopener" class="text-gray-400 hover:text-gold text-sm transition-colors">Helicopter Night Tour</a></li>
+          <li><a href="https://www.viator.com/tours/Las-Vegas/Fremont-Street-History-Walking-Tour/d684-6756FCCWT?pid=P00292126&mcid=42383&medium=link" target="_blank" rel="noopener" class="text-gray-400 hover:text-gold text-sm transition-colors">Fremont Street Tour</a></li>
+          <li><a href="https://www.getyourguide.com/las-vegas-l58/las-vegas-the-sphere-experience-the-wizard-of-oz-t969545/?partner_id=PHIGTBO&utm_medium=online_publisher" target="_blank" rel="noopener" class="text-gray-400 hover:text-gold text-sm transition-colors">The Sphere Experience</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 pt-6 space-y-3">
+      <p class="text-gray-500 text-xs text-center">Some links on this site are affiliate links. We may earn a commission at no extra cost to you. This helps us keep the site free and updated.</p>
+      <p class="text-gray-600 text-xs text-center">© 2026 VegasPartyGuide.live — All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    document.querySelectorAll('.faq-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const item = this.closest('.faq-item');
+        const answer = item.querySelector('.faq-answer');
+        const icon = item.querySelector('.faq-icon');
+        const isOpen = !answer.classList.contains('hidden');
+        // Close all
+        document.querySelectorAll('.faq-answer').forEach(a => a.classList.add('hidden'));
+        document.querySelectorAll('.faq-icon').forEach(i => i.textContent = '+');
+        // Open clicked if was closed
+        if (!isOpen) {
+          answer.classList.remove('hidden');
+          icon.textContent = '−';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
